@@ -31,3 +31,38 @@ public class Tigerpig : Animals
         }
     }
 }
+
+public class Fox : Animals
+{
+    public override void Noise()
+    {
+        if (Input.GetKey(KeyCode.E)) 
+        {
+            Debug.Log("Nyah");
+        }
+    }
+}
+
+
+public class Jellyfish : Animals
+{
+    public override void Noise()
+    {
+        if (Input.GetKey(KeyCode.E))
+        {
+            Debug.Log("Ooohwooooh");
+        }
+    }
+}
+
+
+public class Parrot : Animals
+{
+    public override void Noise()
+    {
+        if (Input.GetKey(KeyCode.E))
+        {
+            Debug.Log("Hello-o!");
+        }
+    }
+}
